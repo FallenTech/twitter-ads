@@ -1,0 +1,35 @@
+{
+  "name": "twitter-ads",
+  "description": "Twitter Ads API for Javascript",
+  "version": "0.0.1",
+  "author": "Talha Asad <talha@fallentech.com>",
+  "contributors": [{
+    "name": "Hassan Tariq",
+    "email": "hassan@caniscrator.com"
+  }],
+  "license": "MIT",
+  "homepage": "https://github.com/FallenTech/twitter-ads#readme",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FallenTech/twitter-ads.git"
+  },
+  "keywords": [
+    "twitter ads",
+    "twitter ads api",
+    "twitter advertising",
+    "twitter advertising api"
+  ],
+  "bugs": {
+    "url": "https://github.com/FallenTech/twitter-ads/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
