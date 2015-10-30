@@ -28,7 +28,9 @@ var T = new TwitterAds({
 T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, resp, body) {
   if (e) return console.error(e);
   console.log(b);
-  /* If everything goes okay, you should get something similar to this in your console.
+  /* If everything goes okay,
+  you should get something similar to this:
+  
     {
       data: {
         approval_status: "ACCEPTED",
@@ -47,8 +49,9 @@ T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, resp, body) {
           account_id: "hkkd"
         }
       }
-    }
+    }  
   */
+  
 });
 
 /* Use T.get, T.post, T.put and T.delete
