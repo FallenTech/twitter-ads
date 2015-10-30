@@ -1,7 +1,7 @@
 {
   "name": "twitter-ads",
   "description": "Twitter Ads API for Javascript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Talha Asad <talha@fallentech.com>",
   "contributors": [{
     "name": "Hassan Tariq",
@@ -30,6 +30,6 @@
     "url": "https://github.com/FallenTech/twitter-ads/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   }
 }
