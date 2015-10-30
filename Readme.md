@@ -1,5 +1,11 @@
 # Twitter Ads API
 
+[![Build Status](https://travis-ci.org/FallenTech/twitter-ads.png?branch=master)](https://travis-ci.org/FallenTech/twitter-ads)
+[![Dependency Status](https://www.versioneye.com/user/projects/56338d8f36d0ab0021001a8d/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56338d8f36d0ab0021001a8d)
+[![NPM version](https://badge.fury.io/js/twitter-ads.png)](http://badge.fury.io/js/twitter-ads)
+
+[![NPM stats](https://nodei.co/npm/twitter-ads.png?downloads=true)](https://www.npmjs.org/package/twitter-ads)
+
 A simple wrapper for <a href="https://dev.twitter.com/ads/overview">Twitter Ads API</a> in Javascript.
 
 ## Installation
@@ -45,7 +51,8 @@ T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, resp, body) {
   */
 });
 
-// You can use T.get, T.post, T.put and T.delete to make different calls available on the Twitter docs.
+/* Use T.get, T.post, T.put and T.delete
+   refer to Twitter API docs for the call details. */
 ```
 
 ## Additional Configurables

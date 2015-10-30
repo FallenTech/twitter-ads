@@ -8,7 +8,7 @@
     "email": "hassan@caniscrator.com"
   }],
   "license": "MIT",
-  "homepage": "https://github.com/FallenTech/twitter-ads#readme",
+  "homepage": "http://fallentech.github.io/twitter-ads",
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
