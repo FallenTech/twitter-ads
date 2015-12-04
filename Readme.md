@@ -6,7 +6,7 @@
 
 [![NPM stats](https://nodei.co/npm/twitter-ads.png?downloads=true)](https://www.npmjs.org/package/twitter-ads)
 
-A simple wrapper for <a href="https://dev.twitter.com/ads/overview">Twitter Ads API</a> in Javascript.
+A simple wrapper for <a href="https://dev.twitter.com/ads/overview">Twitter Ads API</a> in NodeJS.
 
 ## Installation
 
@@ -22,12 +22,12 @@ var T = new TwitterAds({
   consumer_key: 'XXX',
   consumer_secret: 'XXX',
   access_token: 'XXX',
-  access_token_secrets: 'XXX'
+  access_token_secret: 'XXX'
 });
 
-T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, resp, body) {
-  if (e) return console.error(e);
-  console.log(b);
+T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, body, resp) {
+  if (error) return console.error(error);
+  console.log(body);
   /* If everything goes okay,
   you should get something similar to this:
   
@@ -55,7 +55,7 @@ T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, resp, body) {
 });
 
 /* Use T.get, T.post, T.put and T.delete
-   refer to Twitter API docs for the call details. */
+   refer to Twitter API docs for the details on call parameters. */
 ```
 
 ## Additional Configurables

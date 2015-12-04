@@ -1,5 +1,9 @@
 # History
 
+## 0.0.4
+Fixed example in readme.
+*Breaking Change: * Callback parameter order changed, from ```function(err, resp, body)``` it has been changed to ```function(err, body, resp)```
+
 ## 0.0.3
 Fixed a major bug with parameter passing.
 Minimum Node version requirement changed to 0.12
