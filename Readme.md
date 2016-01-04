@@ -25,7 +25,7 @@ var T = new TwitterAds({
   access_token_secret: 'XXX'
 });
 
-T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, body, resp) {
+T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, resp, body) {
   if (error) return console.error(error);
   console.log(body);
   /* If everything goes okay,

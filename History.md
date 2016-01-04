@@ -1,5 +1,9 @@
 # History
 
+## 0.0.5
+*Callback change reverted*
+*Breaking Change: * Callback parameter order changed, from ```function(err, body, resp)``` it has been changed to ```function(err, resp, body)```
+
 ## 0.0.4
 Fixed example in readme.
 *Breaking Change: * Callback parameter order changed, from ```function(err, resp, body)``` it has been changed to ```function(err, body, resp)```
