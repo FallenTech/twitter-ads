@@ -28,7 +28,7 @@
 
 <p><a href="https://www.npmjs.org/package/twitter-ads"><img src="https://nodei.co/npm/twitter-ads.png?downloads=true" alt="NPM stats"></a></p>
 
-<p>A simple wrapper for <a href="https://dev.twitter.com/ads/overview">Twitter Ads API</a> in Javascript.</p>
+<p>A simple wrapper for <a href="https://dev.twitter.com/ads/overview">Twitter Ads API</a> in NodeJS.</p>
 
 <h2>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
@@ -44,12 +44,12 @@
   consumer_key<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>XXX<span class="pl-pds">'</span></span>,
   consumer_secret<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>XXX<span class="pl-pds">'</span></span>,
   access_token<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>XXX<span class="pl-pds">'</span></span>,
-  access_token_secrets<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>XXX<span class="pl-pds">'</span></span>
+  access_token_secret<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>XXX<span class="pl-pds">'</span></span>
 });
 
-T.get(<span class="pl-s"><span class="pl-pds">'</span>accounts/:account_id<span class="pl-pds">'</span></span>, {account_id<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>XXX<span class="pl-pds">'</span></span>}, <span class="pl-k">function</span>(<span class="pl-smi">error</span>, <span class="pl-smi">resp</span>, <span class="pl-smi">body</span>) {
-  <span class="pl-k">if</span> (e) <span class="pl-k">return</span> <span class="pl-en">console</span>.<span class="pl-c1">error</span>(e);
-  <span class="pl-en">console</span>.<span class="pl-c1">log</span>(b);
+<span class="pl-smi">T</span>.<span class="pl-en">get</span>(<span class="pl-s"><span class="pl-pds">'</span>accounts/:account_id<span class="pl-pds">'</span></span>, {account_id<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>XXX<span class="pl-pds">'</span></span>}, <span class="pl-k">function</span>(<span class="pl-smi">error</span>, <span class="pl-smi">resp</span>, <span class="pl-smi">body</span>) {
+  <span class="pl-k">if</span> (error) <span class="pl-k">return</span> <span class="pl-en">console</span>.<span class="pl-c1">error</span>(error);
+  <span class="pl-en">console</span>.<span class="pl-c1">log</span>(body);
   <span class="pl-c">/* If everything goes okay,</span>
 <span class="pl-c">  you should get something similar to this:</span>
 <span class="pl-c"></span>
@@ -77,7 +77,7 @@ T.get(<span class="pl-s"><span class="pl-pds">'</span>accounts/:account_id<span 
 });
 
 <span class="pl-c">/* Use T.get, T.post, T.put and T.delete</span>
-<span class="pl-c">   refer to Twitter API docs for the call details. */</span></pre></div>
+<span class="pl-c">   refer to Twitter API docs for the details on call parameters. */</span></pre></div>
 
 <h2>
 <a id="additional-configurables" class="anchor" href="#additional-configurables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Additional Configurables</h2>
