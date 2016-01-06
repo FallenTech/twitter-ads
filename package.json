@@ -1,7 +1,7 @@
 {
   "name": "twitter-ads",
   "description": "Twitter Ads API for NodeJS",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Talha Asad <talha@fallentech.com>",
   "license": "MIT",
   "homepage": "http://fallentech.github.io/twitter-ads",

@@ -1,5 +1,8 @@
 # History
 
+## 0.0.7
+Some bugs fixed and code refactoring.
+
 ## 0.0.6
 Fixed options bug, which wouldn't allow setting sandbox mode and api version.
 Some code refactoring.
