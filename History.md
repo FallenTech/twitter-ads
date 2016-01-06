@@ -1,5 +1,9 @@
 # History
 
+## 0.0.6
+Fixed options bug, which wouldn't allow setting sandbox mode and api version.
+Some code refactoring.
+
 ## 0.0.5
 *Callback change reverted*
 *Breaking Change: * Callback parameter order changed, from ```function(err, body, resp)``` it has been changed to ```function(err, resp, body)```
