@@ -1,5 +1,9 @@
 # History
 
+## 0.0.8
+Improved example.
+Code refactoring.
+
 ## 0.0.7
 Some bugs fixed and code refactoring.
 

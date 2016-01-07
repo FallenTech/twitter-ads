@@ -17,8 +17,8 @@ $ npm install twitter-ads
 
 ## Usage
 ```js
-var TwitterAds = require('twitter-ads');
-var T = new TwitterAds({
+var TwitterAdsAPI = require('twitter-ads');
+var T = new TwitterAdsAPI({
   consumer_key: 'XXX',
   consumer_secret: 'XXX',
   access_token: 'XXX',
