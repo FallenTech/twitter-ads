@@ -1,5 +1,9 @@
 # History
 
+## 0.1.0
+Seems stable.
+Just a version bump.
+
 ## 0.0.9
 Improved example.
 Code refactoring.
