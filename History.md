@@ -1,6 +1,6 @@
 # History
 
-## 0.1.0
+## 0.1.1
 Seems stable.
 Just a version bump.
 
