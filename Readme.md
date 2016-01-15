@@ -60,24 +60,31 @@ T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, resp, body) {
 
 ## Twitter TON API
 ```js
-T.tonUpload({file: './test.txt', content_type: 'text/plain', bucket: 'ta_partner'}, function(error, location) {
-  if (error) return console.error(error);
-  console.log(location);
-  /* If everything goes okay,
-  you should get something similar to this:
-    https://ton.twitter.com/1.1/ton/bucket/ta_partner/2892314386/n3UPAcC02roTP6C
-  */
-  
+T.tonUpload({
+    file: './test.txt',
+    content_type: 'text/plain',
+    bucket: 'ta_partner'
+  },
+  function(error, location) {
+    if (error) return console.error(error);
+    console.log(location);
+    /* If everything goes okay,
+    you should get something similar to this:
+      https://ton.twitter.com/1.1/ton/bucket/ta_partner/2892314386/n3UPAcC02roTP6C
+    */
 });
 
-T.tonDownload({file: './test.txt', url: 'https://ton.twitter.com/1.1/ton/bucket/ta_partner/2892314386/n3UPAcC02roTP6C'}, function(error, size) {
-  if (error) return console.error(error);
-  console.log(size);
-  /* If everything goes okay,
-  you should get something similar to this:
-    204923
-  */
-  
+T.tonDownload({
+    file: './test.txt',
+    url: 'https://ton.twitter.com/1.1/ton/bucket/ta_partner/2892314386/n3UPAcC02roTP6C'
+  },
+  function(error, size) {
+    if (error) return console.error(error);
+    console.log(size);
+    /* If everything goes okay,
+    you should get something similar to this:
+      204923
+    */
 });
 ```
 
