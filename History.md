@@ -1,5 +1,8 @@
 # History
 
+## 0.1.2
+Added support for Twitter TON API.
+
 ## 0.1.1
 Seems stable.
 Just a version bump.

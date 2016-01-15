@@ -6,7 +6,7 @@
 
 [![NPM stats](https://nodei.co/npm/twitter-ads.png?downloads=true)](https://www.npmjs.org/package/twitter-ads)
 
-A simple wrapper for <a href="https://dev.twitter.com/ads/overview">Twitter Ads API</a> in NodeJS.
+A simple wrapper for <a href="https://dev.twitter.com/ads/overview">Twitter Ads & TON API</a> in NodeJS.
 
 ## Installation
 
@@ -56,6 +56,29 @@ T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, resp, body) {
 
 /* Use T.get, T.post, T.put and T.delete
    refer to Twitter API docs for the details on call parameters. */
+```
+
+## Twitter TON API
+```js
+T.tonUpload({file: './test.txt', content_type: 'text/plain', bucket: 'ta_partner'}, function(error, location) {
+  if (error) return console.error(error);
+  console.log(location);
+  /* If everything goes okay,
+  you should get something similar to this:
+    https://ton.twitter.com/1.1/ton/bucket/ta_partner/2892314386/n3UPAcC02roTP6C
+  */
+  
+});
+
+T.tonDownload({file: './test.txt', url: 'https://ton.twitter.com/1.1/ton/bucket/ta_partner/2892314386/n3UPAcC02roTP6C'}, function(error, size) {
+  if (error) return console.error(error);
+  console.log(size);
+  /* If everything goes okay,
+  you should get something similar to this:
+    204923
+  */
+  
+});
 ```
 
 ## Additional Configurables
