@@ -1,5 +1,8 @@
 # History
 
+### 0.1.3
+Support for Node 0.10.x versions added.
+
 ## 0.1.2
 Added support for Twitter TON API.
 
