@@ -90,4 +90,4 @@ T.tonDownload({
 
 ## Additional Configurables
 * **sandbox (Boolean)** - (Default: true) - Uses sandbox API host.
-* **api_version (String)** - (Default: 0) - Ads API version to use.
+* **api_version (String)** - (Default: 1) - Ads API version to use.
