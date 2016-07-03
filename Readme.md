@@ -1,10 +1,10 @@
 # Twitter Ads API
 
-[![Build Status](https://travis-ci.org/FallenTech/twitter-ads.png?branch=master)](https://travis-ci.org/FallenTech/twitter-ads)
+[![Build Status](https://travis-ci.org/FallenTech/twitter-ads.svg?branch=master)](https://travis-ci.org/FallenTech/twitter-ads)
 [![Dependency Status](https://www.versioneye.com/user/projects/56338d8f36d0ab0021001a8d/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56338d8f36d0ab0021001a8d)
-[![NPM version](https://badge.fury.io/js/twitter-ads.png)](http://badge.fury.io/js/twitter-ads)
+[![NPM version](https://badge.fury.io/js/twitter-ads.svg)](http://badge.fury.io/js/twitter-ads)
 
-[![NPM stats](https://nodei.co/npm/twitter-ads.png?downloads=true)](https://www.npmjs.org/package/twitter-ads)
+[![NPM stats](https://nodei.co/npm/twitter-ads.svg?downloads=true)](https://www.npmjs.org/package/twitter-ads)
 
 A simple wrapper for <a href="https://dev.twitter.com/ads/overview">Twitter Ads & TON API</a> in NodeJS.
 
