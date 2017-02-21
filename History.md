@@ -1,5 +1,8 @@
 # History
 
+### 0.1.7
+Some minor fixes to TON API and dependencies update.
+
 ### 0.1.4
 Support for Node 0.10.x versions added.
 
