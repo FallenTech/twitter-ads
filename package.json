@@ -1,7 +1,7 @@
 {
   "name": "twitter-ads",
   "description": "Twitter Ads API for NodeJS",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Talha Asad <talha@fallentech.com>",
   "license": "MIT",
   "homepage": "http://fallentech.github.io/twitter-ads",
@@ -10,8 +10,8 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "request": "^2.72.0",
-    "moment": "^2.13.0",
+    "request": "^2.79.0",
+    "moment": "^2.17.1",
     "sync": "^0.2.5"
   },
   "repository": {
