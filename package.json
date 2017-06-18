@@ -12,7 +12,7 @@
   "dependencies": {
     "request": "^2.81.0",
     "moment": "^2.18.1",
-    "fibers": "^2.0.0"
+    "async": "^2.4.1"
   },
   "repository": {
     "type": "git",
