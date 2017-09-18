@@ -22,7 +22,9 @@ var T = new TwitterAdsAPI({
   consumer_key: 'XXX',
   consumer_secret: 'XXX',
   access_token: 'XXX',
-  access_token_secret: 'XXX'
+  access_token_secret: 'XXX',
+  sandbox: false, // defaults to true
+  api_version: '2' //defaults to 2
 });
 
 T.get('accounts/:account_id', {account_id: 'XXX'}, function(error, resp, body) {
@@ -90,4 +92,4 @@ T.tonDownload({
 
 ## Additional Configurables
 * **sandbox (Boolean)** - (Default: true) - Uses sandbox API host.
-* **api_version (String)** - (Default: 1) - Ads API version to use.
+* **api_version (String)** - (Default: 2) - Ads API version to use.

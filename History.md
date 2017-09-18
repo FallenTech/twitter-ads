@@ -1,5 +1,13 @@
 # History
 
+### 0.2.1
+Default version of api to use is now 2.
+Some improvements to documentation.
+
+### 0.2.0
+Removed dependency on fibers, instead now uses async.
+Lots of small fixes.
+
 ### 0.1.7
 Some minor fixes to TON API and dependencies update.
 
